@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+.bud {
+    width: 350px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px #000;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.bud__title {
+    font-size: 25px;
+    color: rgb(67, 110, 111);
+}
+
+.bud__add {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bud__text {
+    width: 100%;
+    border: none ;
+    outline: none;
+    background-color: rgb(226, 226, 226) ;
+    height: 25px;
+    padding-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.bud__btn_add{
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(81, 167, 167);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.bud__btn_edit{
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(81, 167, 167);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.bud__edit {
+    height: 20px;
+    width: 20px;
+    background: url(img/edit.svg) center center / contain;
+    border: none;
+    outline: none;
+    background-color: none;
+    cursor: pointer;
+}
+.bud__remove {
+    height: 20px;
+    width: 20px;
+    background: url(img/delete.svg) center center / contain;
+    border: none;
+    outline: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+.bud__list {
+    list-style: none;
+}
+
+.bud__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bud__clear {
+    border: none;
+    outline: none;
+    background: none;
+    margin-top: 20px;
+    color: brown;
+    font-weight: 700;
+    letter-spacing: 2px ;
+    cursor: pointer;
+}
+
+.bud__edit_done {
+    display: none;
+    height: 20px;
+    width: 20px;
+    background: url(img/done-icon.svg) center center / contain;
+    border: none;
+    outline: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+.bud__buttons {
+    display: flex;
+}
